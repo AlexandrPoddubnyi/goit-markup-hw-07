@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+}
+
+.navigation .list {
+  margin-right: 305px;
+}
+
+.navigation-menu__item {
+  margin: auto;
+}
+
+.list .navigation-menu__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--maintext-color);
+}
+
+.list .navigation-menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-menu__link {
+  display: inline-block;
+  transition: var(--transformation);
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

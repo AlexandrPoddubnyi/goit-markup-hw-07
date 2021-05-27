@@ -1,0 +1,33 @@
+.advanteges-list .advanteges-list__item {
+  flex-basis: calc((100% - 3 * var(--itemsmargin)) / 4);
+}
+
+.advanteges-list__item:not(:last-child) {
+  margin-right: var(--itemsmargin);
+}
+
+.advanteges-list__icons {
+  display: flex;
+  height: 120px;
+  background-color: var(--buttonsBG-color);
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.advanteges-list__heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--maintext-color);
+  margin-bottom: 10px;
+}
+
+.advanteges-list__text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--paragraphs-color);
+}

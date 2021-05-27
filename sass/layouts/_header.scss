@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px, solid, var(--navigationborder-color);
+  background-color: var(--backgroundwhite-color);
+  border-bottom: 1px solid var(--navigationborder-color);
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.header-box__logo {
+  margin-right: 93px;
+}
